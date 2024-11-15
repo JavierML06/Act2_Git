@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario Escolar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles2.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <a href="./Index.html">INICIO</a>
+          <a href="./Index2.html">HORARIO</a>
+        </nav>
+      </header>
+      
+      <main class="contenido">
+        <h1>Entornos de desarrollo</h1>
+        <p class="subtitulo">Actividad 2 GIT y GitHub</p>
+        <div id="contenido">
+          <!-- contenido específico de cada página -->
+      
+        <!-- Empezamos a crear la tabla -->
+        <table>
+            <!-- Creamos los encabezados del horario -->
+            <tr>  
+                <th>Hora</th> 
+                <th>Lunes</th> 
+                <th>Martes</th> 
+                <th>Miércoles</th> 
+                <th>Jueves</th>
+                <th>Viernes</th> 
+            </tr>
+            <!-- Creamos la segunda fila del horario -->
+            <tr>  
+                <td>8:15/9:15</td>  
+                <td class="progr" rowspan="2">Programación</td>  
+                <td class="ipei">Itinerario Personal para la Empleabilidad I</td> 
+                <td class="endes" rowspan="2">Entornos de desarrollo</td> 
+                <td class="progr" rowspan="2">Programación</td>
+                <td class="badat" rowspan="2">Bases de Datos</td>
+            </tr>
+            <!-- Creamos la tercera fila del horario -->
+            <tr>  
+                <td>9:15/10:15</td>
+                <td class="endes">Entornos de desarrollo</td>
+            </tr>
+            <!-- Creamos la cuarta fila del horario -->
+            <tr> 
+                <td>10:15/11:15</td>
+                <td class="badat">Bases de Datos</td> 
+                <td class="lmsgi">Lenguajes de marcas y sistemas de gestión de información</td>
+                <td class="badat">Bases de Datos</td>
+                <td class="ipei">Itinerario Personal para la Empleabilidad I</td> 
+                <td class="sasp">Sostenibilidad Aplicada al Sistema Productivo</td>
+            </tr>
+            <!-- Creamos la quinta fila del horario -->
+            <tr>
+                <td>11:15/11:45</td>
+                <td colspan="5" class="recreo">RECREO</td>
+            </tr>
+            <!-- Creamos la sexta fila del horario -->
+            <tr>  
+                <td>11:45/12:45</td>
+                <td class="badat">Bases de Datos</td> 
+                <td class="progr" rowspan="3">Programación</td>
+                <td class="tutoria-dual">TUTORIA DUAL</td>
+                <td class="lmsgi" rowspan="2">Lenguajes de marcas y sistemas de gestión de información</td>
+                <td class="ipei">IPE I</td>
+            </tr>
+            <!-- Creamos la séptima fila del horario -->
+            <tr>
+                <td>12:45/13:45</td>
+                <td rowspan="2" class="siinf">Sistemas informáticos</td>
+                <td rowspan="2" class="siinf">Sistemas informáticos</td>
+                <td class="siinf">Sistemas informáticos</td>
+            </tr>
+            <!-- Creamos la octava fila del horario -->
+            <tr>
+                <td>13:45/14:45</td>
+                <td class="daspgs">Digitalización Aplicada a los Sectores Productivos GS</td>
+                <td class="progr" rowspan="3">Programación</td>
+            </tr>
+        </table>
+    </div>
+    </main>
+    <footer>
+        <p>Desarrollado por IES Pablo Picasso</p>
+      </footer>
+</body>
+</html>
