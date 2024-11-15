@@ -1,0 +1,81 @@
+/* Estilo del cuerpo del html */
+body { 
+    font-family: "Nunito";
+    margin: 20px;
+    font-weight: bold;
+}
+header {
+    background-color: #008000;
+    padding: 1rem;
+  }
+  
+  header nav {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem;
+    transition: all 0.3s ease;
+  }
+  
+  header a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+  }
+/* Estilo de la tabla */
+table { 
+    margin: auto;
+    width: 70%;
+    height: 50%;
+    border-collapse: collapse; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    background-color: #FEBFBB; 
+    border: none; 
+}
+
+/* Estilo de los table header y de los table data */
+th, td { 
+    font-size: 15px;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Estilo de los table header por separado */
+th { 
+    font-size: 25px;
+    font-family: "Ubuntu";
+    background-color: #98E8D5; 
+    color: #333; 
+    word-wrap: break-word;
+}
+
+/* Estilo de los table data por separado */
+td { 
+    background-color: #e0f7fa; 
+    color: #333; 
+}
+
+/* Estilo de las clases de las asignaturas */
+.progr { background-color: #ff8fab; }
+.ipei { background-color: #abc4ff; }
+.endes { background-color: #5FA0C6; }
+.badat { background-color: #dfb2f4; }
+.lmsgi { background-color: #FA9A84; }
+.sasp { background-color: #ffee93; }
+.siinf { background-color: #adf7b6; }
+.tutoria-dual { background-color: #B0E2FF; }
+.daspgs { background-color: #94D4C6; }
+
+/* Estilo de la id de recreo */
+.recreo {
+    font-size: 30px;
+    letter-spacing: 60px; 
+    font-family: "Oswald";
+}

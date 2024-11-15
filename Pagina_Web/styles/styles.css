@@ -40,10 +40,15 @@ h1 {
   margin-bottom: 1rem;
 }
 
+img{
+  height: 300px;
+  width: 500px;
+}
 .subtitulo {
   color: #333;
   margin-bottom: 2rem;
 }
+
 main{
   display: flex;
   flex-direction: column;
